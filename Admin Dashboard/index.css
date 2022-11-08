@@ -1,0 +1,166 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    overflow: hidden;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    display: flex;
+}
+
+/*====Dashboard====*/
+
+.dashboard{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    padding: 1.5rem 1rem 0 2rem;
+    background-color: rgb(19, 16, 16);
+    color: white;
+}
+
+.dash-links{
+    margin-top: 2rem;
+}
+
+.dashboard .dash-link{
+    border-radius: 8px;
+    margin-top: 0.9rem;
+    padding: 0;
+}
+
+.dash-link a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.links{
+    margin-top: 2rem;
+}
+
+.set-link{
+    margin-top: 0.5rem;
+}
+
+.links a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+
+/*=== NAV === */
+
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 2rem;
+    padding-bottom: 0.5rem;
+}
+
+.logo{
+    display: flex;
+    margin-left: 1rem;
+    height: 2rem;
+    padding: 0.5rem;
+}
+
+.logo img{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+}
+
+.user{
+    margin-left: 0.5rem;
+}
+
+.nav-links{
+    display: flex;
+    margin: 0 4px;
+}
+
+.nav-link a{
+    text-decoration: none;
+    display: flex;
+    padding: 6px 16px;
+    font-size: 10px;
+    margin-right: 8px;
+    color:white;
+    background-color: black;
+    border-radius: 1rem;
+}
+
+
+/*==== BODY PAGE ====*/
+
+.body-page{
+    padding: 1rem;
+    display: flex;
+    background: rgb(220, 240, 231);
+    height: 100vh;
+}
+
+.projects{
+    min-width: 75%;
+    max-width: 75%;
+}
+
+.sub-projects{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.sub-projects .sub-project{
+    min-width: 25%;
+    max-width: 25%;
+    padding: 2rem 1.5rem 2rem;
+    height: fit-content;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 3px #525252;
+}
+
+.sub-projects .sub-project h4{
+    margin-bottom: 1rem;
+}
+
+.sub-projects .sub-project p{
+    font-size: 15px;
+    line-height: 22px;
+}
+
+
+.sub-annoucements{
+    margin-top: 1rem;
+    background-color:white;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 0 3px #525252;
+}
+
+.sub-annoucements .ann-head{
+    margin-bottom: 1rem;
+}
+
+.text{
+    font-size: 15px;
+    line-height: 22px;
+}
+
+.comm{
+    margin: 1rem 0;
+}
+
+/*=== DIVIDER === */
